@@ -1,4 +1,4 @@
-@use "colors/_latte" as *;
+@import "colors/latte";
 
 :root {
   --base-color: #{$latte-blue};

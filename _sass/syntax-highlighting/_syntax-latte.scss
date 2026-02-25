@@ -1,9 +1,8 @@
-@use "colors/_latte" as *;
-@use "sass:color";
+@import "colors/latte";
 
 .highlight {
   .hll { background-color: $latte-surface1; }
-  background: color.adjust($latte-surface0, $lightness: 5%);
+  background: adjust-color($latte-surface0, $lightness: 5%);
   .c { color: $latte-subtext1; font-style: italic; }
   .err { border: 1px solid $latte-red; }
   .k { color: $latte-green; font-weight: bold; }

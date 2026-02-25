@@ -1,9 +1,8 @@
-@use "colors/_macchiato" as *;
-@use "sass:color";
+@import "colors/macchiato";
 
 .highlight {
   .hll { background-color: $macchiato-surface1; }
-  background: color.adjust($macchiato-surface0, $lightness: 5%);
+  background: adjust-color($macchiato-surface0, $lightness: 5%);
   .c { color: $macchiato-subtext1; font-style: italic; }
   .err { border: 1px solid $macchiato-red; }
   .k { color: $macchiato-green; font-weight: bold; }

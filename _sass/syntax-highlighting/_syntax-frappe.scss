@@ -1,9 +1,8 @@
-@use "colors/_frappe" as *;
-@use "sass:color";
+@import "colors/frappe";
 
 .highlight {
   .hll { background-color: $frappe-surface1; }
-  background: color.adjust($frappe-surface0, $lightness: 5%);
+  background: adjust-color($frappe-surface0, $lightness: 5%);
   .c { color: $frappe-subtext1; font-style: italic; }
   .err { border: 1px solid $frappe-red; }
   .k { color: $frappe-green; font-weight: bold; }

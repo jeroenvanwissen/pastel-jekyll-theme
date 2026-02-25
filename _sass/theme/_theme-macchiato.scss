@@ -1,4 +1,4 @@
-@use "colors/_macchiato" as *;
+@import "colors/macchiato";
 
 :root {
   --base-color: #{$macchiato-blue};

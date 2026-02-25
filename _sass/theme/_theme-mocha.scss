@@ -1,4 +1,4 @@
-@use "colors/_mocha" as *;
+@import "colors/mocha";
 
 :root {
   --base-color: #{$mocha-blue};

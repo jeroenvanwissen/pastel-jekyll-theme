@@ -1,8 +1,8 @@
 ---
 ---
 
-@use "_base";
-@use "_code";
-@use "colors/_frappe";
-@use "theme/_theme-frappe";
-@use "syntax-highlighting/_syntax-frappe";
+@import "base";
+@import "code";
+@import "colors/frappe";
+@import "theme/theme-frappe";
+@import "syntax-highlighting/syntax-frappe";

@@ -1,4 +1,4 @@
-@use "colors/_frappe" as *;
+@import "colors/frappe";
 
 :root {
   --base-color: #{$frappe-blue};

@@ -1,8 +1,8 @@
 ---
 ---
 
-@use "_base";
-@use "_code";
-@use "colors/_mocha";
-@use "theme/_theme-mocha";
-@use "syntax-highlighting/_syntax-mocha";
+@import "base";
+@import "code";
+@import "colors/mocha";
+@import "theme/theme-mocha";
+@import "syntax-highlighting/syntax-mocha";
