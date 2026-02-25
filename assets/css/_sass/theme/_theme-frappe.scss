@@ -1,0 +1,40 @@
+@use "colors/_frappe" as *;
+
+:root {
+  --base-color: #{$frappe-blue};
+  --accent-color: #{$frappe-lavender};
+  --border-color: #{$frappe-surface1};
+  --selection-background: #{rgba($frappe-blue, 0.3)};
+  --selection-text: #{$frappe-text};
+  --background-color: #{$frappe-base};
+  --text-color: #{$frappe-text};
+  --heading-color: #{$frappe-text};
+  --subtext-color: #{$frappe-subtext0};
+  --link-color: #{$frappe-blue};
+  --link-underline-color: #{rgba($frappe-blue, 0.3)};
+  --link-hover-color: #{$frappe-sapphire};
+  --link-hover-bg: #{rgba($frappe-blue, 0.1)};
+  --inline-code-background: #{$frappe-surface1};
+  --blockquote-bg: #{rgba($frappe-surface0, 0.5)};
+  --table-header-bg: #{$frappe-mantle};
+  --table-stripe-bg: #{rgba($frappe-surface0, 0.3)};
+
+  --code-color-1: #{$frappe-green};
+  --code-color-2: #{$frappe-text};
+  --code-color-3: #{$frappe-red};
+  --code-color-4: #{$frappe-maroon};
+  --code-color-5: #{$frappe-teal};
+  --code-color-6: #{$frappe-sky};
+  --code-color-7: #{$frappe-red};
+  --code-color-8: #{$frappe-teal};
+  --code-color-9: #{$frappe-blue};
+  --code-color-10: #{$frappe-blue};
+  --code-color-11: #{$frappe-text};
+  --code-color-12: #{$frappe-red};
+  --code-color-13: #{$frappe-teal};
+  --code-color-14: #{$frappe-blue};
+  --code-color-15: #{$frappe-red};
+  --code-color-16: #{$frappe-teal};
+  --code-color-17: #{$frappe-red};
+  --code-color-18: #{$frappe-blue};
+}

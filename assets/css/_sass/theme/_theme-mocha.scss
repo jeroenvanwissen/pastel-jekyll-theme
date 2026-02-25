@@ -1,0 +1,40 @@
+@use "colors/_mocha" as *;
+
+:root {
+  --base-color: #{$mocha-blue};
+  --accent-color: #{$mocha-lavender};
+  --border-color: #{$mocha-surface1};
+  --selection-background: #{rgba($mocha-blue, 0.3)};
+  --selection-text: #{$mocha-text};
+  --background-color: #{$mocha-base};
+  --text-color: #{$mocha-text};
+  --heading-color: #{$mocha-text};
+  --subtext-color: #{$mocha-subtext0};
+  --link-color: #{$mocha-blue};
+  --link-underline-color: #{rgba($mocha-blue, 0.3)};
+  --link-hover-color: #{$mocha-sapphire};
+  --link-hover-bg: #{rgba($mocha-blue, 0.1)};
+  --inline-code-background: #{$mocha-surface1};
+  --blockquote-bg: #{rgba($mocha-surface0, 0.5)};
+  --table-header-bg: #{$mocha-mantle};
+  --table-stripe-bg: #{rgba($mocha-surface0, 0.3)};
+
+  --code-color-1: #{$mocha-green};
+  --code-color-2: #{$mocha-text};
+  --code-color-3: #{$mocha-red};
+  --code-color-4: #{$mocha-maroon};
+  --code-color-5: #{$mocha-teal};
+  --code-color-6: #{$mocha-sky};
+  --code-color-7: #{$mocha-red};
+  --code-color-8: #{$mocha-teal};
+  --code-color-9: #{$mocha-blue};
+  --code-color-10: #{$mocha-blue};
+  --code-color-11: #{$mocha-text};
+  --code-color-12: #{$mocha-red};
+  --code-color-13: #{$mocha-teal};
+  --code-color-14: #{$mocha-blue};
+  --code-color-15: #{$mocha-red};
+  --code-color-16: #{$mocha-teal};
+  --code-color-17: #{$mocha-red};
+  --code-color-18: #{$mocha-blue};
+}

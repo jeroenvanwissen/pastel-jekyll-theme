@@ -1,0 +1,29 @@
+# Site settings
+title:          pastel-jekyll-theme
+description:    "a clean, terminal-style Jekyll blog theme with catppuccin pastel colours"
+baseurl:        ""
+url:            ""
+
+# https://jekyllrb.com/docs/configuration/options/
+timezone: Europe/Amsterdam
+
+# Available style options based on catppuccin: latte, frappe, macchiato, mocha
+style_light: latte
+style_dark: mocha
+
+# Include pages
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir: /assets/css/_sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+
+# Build settings
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge

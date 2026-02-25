@@ -1,0 +1,40 @@
+@use "colors/_latte" as *;
+
+:root {
+  --base-color: #{$latte-blue};
+  --accent-color: #{$latte-lavender};
+  --border-color: #{$latte-surface1};
+  --selection-background: #{rgba($latte-blue, 0.2)};
+  --selection-text: #{$latte-text};
+  --background-color: #{$latte-base};
+  --text-color: #{$latte-text};
+  --heading-color: #{$latte-text};
+  --subtext-color: #{$latte-subtext0};
+  --link-color: #{$latte-blue};
+  --link-underline-color: #{rgba($latte-blue, 0.3)};
+  --link-hover-color: #{$latte-sapphire};
+  --link-hover-bg: #{rgba($latte-blue, 0.08)};
+  --inline-code-background: #{$latte-surface0};
+  --blockquote-bg: #{rgba($latte-surface0, 0.5)};
+  --table-header-bg: #{$latte-mantle};
+  --table-stripe-bg: #{rgba($latte-surface0, 0.3)};
+
+  --code-color-1: #{$latte-green};
+  --code-color-2: #{$latte-base};
+  --code-color-3: #{$latte-red};
+  --code-color-4: #{$latte-maroon};
+  --code-color-5: #{$latte-teal};
+  --code-color-6: #{$latte-sky};
+  --code-color-7: #{$latte-red};
+  --code-color-8: #{$latte-teal};
+  --code-color-9: #{$latte-blue};
+  --code-color-10: #{$latte-blue};
+  --code-color-11: #{$latte-base};
+  --code-color-12: #{$latte-red};
+  --code-color-13: #{$latte-teal};
+  --code-color-14: #{$latte-blue};
+  --code-color-15: #{$latte-red};
+  --code-color-16: #{$latte-teal};
+  --code-color-17: #{$latte-red};
+  --code-color-18: #{$latte-blue};
+}

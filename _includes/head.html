@@ -1,0 +1,42 @@
+<head>
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
+  />
+
+  <title>
+    {% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{
+    site.title }}{% endif %}
+  </title>
+
+  {%- if jekyll.environment == 'production' or site.plugins contains
+  'jekyll-seo-tag' -%} {%- seo title=false -%} {%- endif -%} {% if page.robots
+  %}
+  <meta name="robots" content="{{ page.robots }}" />
+  {% endif %} {%- assign style_light = site.style_light | default: "latte" -%}
+  {%- assign style_dark = site.style_dark | default: "macchiato" -%} {%- assign
+  style_light_css = style_light | append: '.css' -%} {%- assign style_dark_css =
+  style_dark | append: '.css' -%} {%- if style_light == style_dark -%}
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="{{ '/assets/css/' | append: style_light_css | relative_url }}"
+  />
+  {%- else -%}
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="{{ '/assets/css/' | append: style_light_css | relative_url }}"
+    media="screen and (prefers-color-scheme: light)"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="{{ '/assets/css/' | append: style_dark_css | relative_url }}"
+    media="screen and (prefers-color-scheme: dark)"
+  />
+  {%- endif -%} {%- if site.favicon -%}
+  <link rel="icon" type="image/png" href="{{ site.favicon | relative_url }}" />
+  {%- endif -%}
+</head>
